@@ -1,20 +1,20 @@
-Digital Media Integrity Checker
+#Digital Media Integrity Checker
 
 Digital Media Integrity Checker is an AI-powered Python tool designed to detect manipulated or forged images. It uses a combination of digital forensics techniques to check image authenticity and highlight suspicious regions. This project integrates methods such as double JPEG compression detection, CFA artifact analysis, and copy-move forgery detection to ensure comprehensive analysis of digital images.
 
-Features
+#Features
 
-Double JPEG Compression Detection – Identifies whether an image has been compressed multiple times, which is a common sign of forgery.
+-Double JPEG Compression Detection – Identifies whether an image has been compressed multiple times, which is a common sign of forgery.
 
-CFA (Color Filter Array) Artifact Detection – Detects inconsistencies in the sensor pattern, helping identify tampered areas.
+-CFA (Color Filter Array) Artifact Detection – Detects inconsistencies in the sensor pattern, helping identify tampered areas.
 
-Copy-Move Forgery Detection – Locates regions that have been duplicated and moved within an image.
+-Copy-Move Forgery Detection – Locates regions that have been duplicated and moved within an image.
 
-Noise Analysis – Detects unusual noise patterns indicative of manipulation.
+-Noise Analysis – Detects unusual noise patterns indicative of manipulation.
 
-Visual Output – Annotated images saved for easy identification of suspicious areas.
+-Visual Output – Annotated images saved for easy identification of suspicious areas.
 
-Project Structure
+#Project Structure
 Digital-Media-Integrity-Checker/
 │
 ├── images/                # Place images here to test
@@ -27,48 +27,48 @@ Digital-Media-Integrity-Checker/
 │   └── blocks.py
 ├── README.md              # This file
 
-Installation
+#Installation
 
-Clone the repository
+##Clone the repository
 
 git clone https://github.com/sonalm3214/Digital-Media-Integrity-Checker.git
 cd Digital-Media-Integrity-Checker
 
 
-Create and activate a virtual environment
+##Create and activate a virtual environment
 
-Windows:
+#Windows:
 
 python -m venv venv
 venv\Scripts\activate
 
 
-Linux / macOS:
+#Linux / macOS:
 
 python -m venv venv
 source venv/bin/activate
 
 
-Install all required Python libraries in one command
+#Install all required Python libraries in one command
 
 pip install numpy scipy opencv-python matplotlib pandas tqdm scikit-learn
 
 
 This installs all dependencies needed for running the Digital Media Integrity Checker.
 
-Usage
+#Usage
 
 Add your images to the images/ folder.
 
-Run the detection script:
+##Run the detection script:
 
 cd src
 python detect.py ../images/image.jpg
 
 
-Check the output:
+##Check the output:
 
-Terminal will show:
+#Terminal will show:
 
 Double JPEG compression status (Single compressed / Double compressed)
 
@@ -76,22 +76,13 @@ CFA artifact count
 
 output/ folder will contain annotated images highlighting suspicious regions (especially for copy-move detection).
 
-Tips
+#Tips
 
 Ensure all dependencies are installed in your virtual environment.
 
 Use high-quality images for better detection results.
 
 The tool is designed for research, forensic analysis, and learning purposes.
-
-Project Highlights
-
-Resume-worthy project demonstrating skills in:
-
-Python programming
-
-Digital image forensics
-
 Computer vision and machine learning
 
 Data analysis and visualization
