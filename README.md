@@ -40,6 +40,7 @@ Digital-Media-Integrity-Checker/
 Clone the repository
 
 git clone https://github.com/sonalm3214/Digital-Media-Integrity-Checker.git
+
 cd Digital-Media-Integrity-Checker
 
 
