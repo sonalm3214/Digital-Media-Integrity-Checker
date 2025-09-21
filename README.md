@@ -4,15 +4,15 @@ Digital Media Integrity Checker is an AI-powered Python tool designed to detect 
 
 Features
 
--Double JPEG Compression Detection – Identifies whether an image has been compressed multiple times, which is a common sign of forgery.
+Double JPEG Compression Detection – Identifies whether an image has been compressed multiple times, a common sign of forgery.
 
--CFA (Color Filter Array) Artifact Detection – Detects inconsistencies in the sensor pattern, helping identify tampered areas.
+CFA (Color Filter Array) Artifact Detection – Detects inconsistencies in the sensor pattern to help identify tampered areas.
 
--Copy-Move Forgery Detection – Locates regions that have been duplicated and moved within an image.
+Copy-Move Forgery Detection – Locates regions that have been duplicated and moved within an image.
 
--Noise Analysis – Detects unusual noise patterns indicative of manipulation.
+Noise Analysis – Detects unusual noise patterns indicative of manipulation.
 
--Visual Output – Annotated images saved for easy identification of suspicious areas.
+Visual Output – Annotated images are saved for easy identification of suspicious regions.
 
 Project Structure
 Digital-Media-Integrity-Checker/
@@ -83,6 +83,3 @@ Ensure all dependencies are installed in your virtual environment.
 Use high-quality images for better detection results.
 
 The tool is designed for research, forensic analysis, and learning purposes.
-Computer vision and machine learning
-
-Data analysis and visualization
