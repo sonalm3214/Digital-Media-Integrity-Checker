@@ -18,13 +18,21 @@ Project Structure
 Digital-Media-Integrity-Checker/
 │
 ├── images/                # Place images here to test
+
 ├── output/                # Processed images and results are saved here
+
 ├── src/                   # Python scripts for detection
+
 │   ├── detect.py          # Main script to run all checks
+
 │   ├── double_jpeg_compression.py
+
 │   ├── copy_move_detection.py
+
 │   ├── image_object.py
+
 │   └── blocks.py
+
 ├── README.md              # This file
 
 Installation
